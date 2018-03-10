@@ -25,7 +25,6 @@
       }
     }
   }
-
 ?>
 
 <!doctype html>
@@ -64,6 +63,7 @@
         margin-top: 15px;
       }
     </style>
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -77,7 +77,6 @@
           <input type="text" class="form-control" name="city" id="city" aria-describedby="city" placeholder="Eg. New York, London" value="<?php if (array_key_exists('city', $_GET)) {echo $_GET['city'];} ?>" >
         </fieldset>
         <button type="submit" class="btn btn-primary">Submit</button>
-
       </form>
 
       <div id="weather">
